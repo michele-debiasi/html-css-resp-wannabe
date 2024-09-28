@@ -127,7 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+ 
  /*da 480 a 0*/
  @media  screen and (max-width: 480px) {
     .lessons .row{
@@ -153,5 +153,22 @@ img {
         width: 100%;
         padding-bottom: 2.5rem;
     }
-    
+
+    .why-us .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .why-us .col-left {
+        width: 100%;
+        padding-bottom: 2.5rem;
+
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    body .why-us {
+        background-color: #222222;
+    }
+
 }
